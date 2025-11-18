@@ -1,3 +1,7 @@
+/*
+ Author:Nazmul Islam
+ Complexity: O(n) time & O(n) Space
+*/
 class Solution {
   public:
     // Function to find equilibrium point in the array.
