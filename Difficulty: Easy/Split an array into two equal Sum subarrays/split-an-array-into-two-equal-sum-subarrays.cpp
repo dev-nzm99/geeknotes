@@ -14,3 +14,20 @@ class Solution {
         return false;
     }
 };
+/*
+class Solution {
+  public:
+    bool canSplit(vector<int>& arr) {
+        int leftSum = 0; 
+        for(const auto &x: arr) leftSum += x;
+        
+        int rightSum = 0;
+        for(int i = 0; i<arr.size(); ++i){
+            rightSum += arr[i];
+            if(leftSum - rightSum == rightSum) 
+                 return true;
+        }
+        return false;
+    }
+};
+*/
